@@ -1,0 +1,115 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+@import url(http://fonts.googleapis.com/earlyaccess/hanna.css);
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+* {
+	font-family: "Nanum Gothic";
+}
+h5 {
+	font-family: "Noto Sans KR";
+	font-size: 15px;
+}
+h4 {
+	font-family: "Noto Sans KR";
+}
+h3 {
+	font-family: "Hanna";
+}
+h2 {
+	font-family: "Hanna";
+}
+h1 {
+	font-family: "Hanna";
+}
+.jumbotron {
+	margin-top: 55px;
+	background-color: #81e8c5;
+}
+.jumbotron > .profile {
+	display: block;
+	margin: 0 auto;
+	width: 256px;
+	height: 256px;
+}
+.jumbotron > .line {
+	border-top: 10px solid #ffffff;
+	border-top-color: #ffffff;
+	width: 50%;
+}
+.resume > .line {
+	border-top: 10px solid #81e8c5;
+	border-top-color: #81e8c5;
+}
+.resume > .profile {
+	display: block;
+	margin: 0 auto;
+	vertical-align: middle;
+}
+table {
+	border: 1px solid #82edc8;
+}
+thead {
+	border: 1px solid #82edc8;
+}
+tbody {
+	border: 1px solid #82edc8;
+}
+thead > tr > th {
+	background-color: #82edc8;
+	color: white;
+	text-align: center;
+	vertical-align: middle;
+}
+.table>tbody>tr>td, 
+.table>tbody>tr>th, 
+.table>tfoot>tr>td, 
+.table>tfoot>tr>th, 
+.table>thead>tr>td, 
+.table>thead>tr>th {
+	vertical-align: middle;
+}
+.table > thead:first-child > tr > td:first-child,
+.table > tbody:first-child > tr > td:first-child {
+	background-color: #9cedd1;
+}
+.table > tbody > tr > td > p {
+	margin: 0;
+}
+.aboutMe-container {
+	margin: 30px 150px;
+}
+.aboutMe >  .line {
+	border-top: 10px solid #81e8c5;
+	border-top-color: #81e8c5;
+}
+.carousel-indicators > li,
+.carousel-indicators > .active {
+	color:  #9cedd1;
+	background-color: #9cedd1;
+}
+.carousel > .carousel-control.left{
+	background-image: linear-gradient(to right,rgba(0, 255, 208, 0.5) 0,rgba(140, 227, 203, 0.0001) 100%)
+}
+.carousel > .carousel-control.right{
+	background-image: linear-gradient(to right,rgba(140, 227, 203, 0.0001) 0,rgba(0, 255, 208, 0.5) 100%)
+}
+.body {
+	position: relative;
+}
+.project > .line {
+	border-top: 10px solid #81e8c5;
+	border-top-color: #81e8c5;
+}
+.project-img > img {
+	width: 400px;
+	height: 300px;
+}
+a {
+	color: #000000;
+	text-decoration: none;
+}
+a:hover {
+	color: #bbbbbb;
+	text-decoration: none;
+	cursor: pointer;
+}
+
